@@ -1,0 +1,13 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.Main{
+  width: 100%;
+  background-color: white;
+}
+.navbar{
+  width: 1200px;
+  height: 75px;
+  margin: auto;
+}
