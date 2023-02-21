@@ -1,10 +1,10 @@
-const balloons = document.querySelector('.header .nav-bar .nav-list .balloons');
+const hamburger = document.querySelector('.header .nav-bar .nav-list .hamburger');
 const mobile_menu = document.querySelector('.header .nav-bar .nav-list ul');
 const menu_item = document.querySelectorAll('.header .nav-bar .nav-list ul li a');
 const header = document.querySelector('.header.container');
 
-balloons.addEventListener('click', () => {
-	balloons.classList.toggle('active');
+hamburger.addEventListener('click', () => {
+	hamburger.classList.toggle('active');
 	mobile_menu.classList.toggle('active');
 });
 
@@ -19,7 +19,7 @@ document.addEventListener('scroll', () => {
 
 menu_item.forEach((item) => {
 	item.addEventListener('click', () => {
-		balloons.classList.toggle('active');
+		hamburger.classList.toggle('active');
 		mobile_menu.classList.toggle('active');
 	});
 });
