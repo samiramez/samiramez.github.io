@@ -567,7 +567,7 @@ p {
 /* End Keyframes */
 
 /* Media Query For Tablet */
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 400px) {
 	.cta {
 		font-size: 2.5rem;
 		padding: 20px 60px;
@@ -653,14 +653,14 @@ p {
 	#contact .contact-item {
 		width: 30%;
 		margin: 0;
-		flex-direction: row;
+		flex-direction: column;
 	}
 	#contact .contact-item .icon {
 		height: 100px;
 		width: 100px;
 	}
 	#contact .contact-item .icon img {
-		object-fit: contain;
+		object-fit: none;
 	}
 	#contact .contact-item .contact-info {
 		width: 100%;
