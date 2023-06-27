@@ -642,20 +642,21 @@ p {
 		min-width: 20vh;
 	}
 	#contact .contact-items {
-		width: 100%;
-		/* display: flex; */
+		width: 80%;
+		display: flex;
 		flex-direction: row;
 		justify-content: space-evenly;
 		margin: 0;
 	}
 	#contact .contact-item {
+
 		width: 80%;
 		margin: 50;
 		display: flex;
 		padding: 30px;
-		flex-direction: column;
+		flex-direction: row;
 	}
-	/* #contact .contact-item .icon {
+	#contact .contact-item .icon {
 		height: 100px;
 		width: 100px;
 	}
@@ -664,9 +665,9 @@ p {
 	}
 	#contact .contact-item .contact-info {
 		width: 100%;
-		text-align: center;
+		text-align: left;
 		padding-left: 20px;
-	} */
+	}
 	/* End contact  */
 }
 /* End Media Query For Tablet */
