@@ -459,7 +459,7 @@ p {
 	width: 100%;
 }
 #contact .contact-item {
-	width: 40%;
+	width: 80%;
 	padding: 20px;
 	text-align: center;
 	border-radius: 10px;
@@ -476,7 +476,7 @@ p {
 	box-shadow: 0px 0px 5px 0 #0000002c;
 }
 #contact .icon {
-	width: 70px;
+	width: auto;
 	margin: 0 auto;
 	margin-bottom: 10px;
 }
