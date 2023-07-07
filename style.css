@@ -459,6 +459,7 @@ p {
 }
 #contact .contact-items {
 	max-width: 400px;
+	width: 100%;
 }
 #contact .contact-item {
 	width: 80%;
@@ -547,12 +548,12 @@ p {
 }
 @keyframes text_reveal_box {
 	50% {
-		width: 50%;
+		width: 100%;
 		left: 0;
 	}
 	100% {
 		width: 0;
-		left: 50%;
+		left: 100%;
 	}
 }
 @keyframes text_reveal {
@@ -672,8 +673,6 @@ p {
 	}
 	#contact .contact-item .icon img {
 		object-fit: contain;
-		
-		
 	}
 	#contact .contact-item .contact-info {
 		width: 100%;
@@ -689,7 +688,7 @@ p {
 	/* header */
 	#header .hamburger {
 		display: none;
-	}	
+	}
 
 	#contact .contact-items {
 		width: 80%;
