@@ -458,7 +458,7 @@ p {
 	width: 90%;
 }
 #contact .contact-items {
-	/* max-width: 400px; */
+	max-width: 400px;
 	width: 100%;
 }
 #contact .contact-item {
@@ -568,7 +568,7 @@ p {
 	}
 }
 /* End Keyframes */
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 812px) {
 	#footer {
 		width: 120%;
 	}
@@ -662,8 +662,8 @@ p {
 		min-width: 20vh;
 	}
 	#contact .contact-items {
-		width: 100%;
-		display: inline-block;
+		max-width: 400px;
+		display: flex;
 		flex-direction: row;
 		justify-content: space-evenly;
 		margin: 0;
