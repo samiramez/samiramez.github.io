@@ -565,7 +565,7 @@ p {
 	}
 }
 /* End Keyframes */
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 812px) {
 	.cta {
 		font-size: 2.5rem;
 		padding: 20px 60px;
@@ -643,7 +643,7 @@ p {
 	}
 	#contact .contact-items {
 		width: 80%;
-		display: flex;
+		display: inline-flex;
 		flex-direction: row;
 		justify-content: space-evenly;
 		margin: 0;
@@ -652,7 +652,7 @@ p {
 
 		width: 80%;
 		margin: 50;
-		display: flex;
+		display: inline-flex;
 		padding: 30px;
 		flex-direction: row;
 	}
