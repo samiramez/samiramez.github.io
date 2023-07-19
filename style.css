@@ -773,6 +773,14 @@ p {
 		width: 100px;
 	}
 
+	.container .row .icon img{
+		height: 70px;
+		width: 50px;
+		object-fit: fill;
+		align-items: center;
+		text-align: center;
+	}
+
 	#contact .contact-item .icon img {
 		object-fit: contain;
 	}
